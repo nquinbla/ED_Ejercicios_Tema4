@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 1] ejs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/B_ProgramaListado/Main_B.java" afterDir="false" />
-    </list>
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 2] código FileComparator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,8 +31,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FileComparator.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_A.executor": "Run",
+    "Application.Main_B.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714033557851</updated>
       <workItem from="1714033558960" duration="32000" />
-      <workItem from="1714040352861" duration="925000" />
+      <workItem from="1714040352861" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -111,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714041191088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Módulo 2] código FileComparator">
+      <option name="closed" value="true" />
+      <created>1714041408554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041408554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Módulo 2] código FileComparator">
+      <option name="closed" value="true" />
+      <created>1714041568713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041568713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +139,7 @@
     <MESSAGE value="[Módulo 4] código Main_A" />
     <MESSAGE value="[Módulo 4] ajustes" />
     <MESSAGE value="[Módulo 1] ejs" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 1] ejs" />
+    <MESSAGE value="[Módulo 2] código FileComparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 2] código FileComparator" />
   </component>
 </project>
