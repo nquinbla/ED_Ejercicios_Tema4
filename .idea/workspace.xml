@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 4] código InputFrame">
-      <change afterPath="$PROJECT_DIR$/src/main/java/A_ProgramaX/Main_A.java" afterDir="false" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 1] ejs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/B_ProgramaListado/Main_B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.Main_A.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714033557851</updated>
       <workItem from="1714033558960" duration="32000" />
-      <workItem from="1714040352861" duration="491000" />
+      <workItem from="1714040352861" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -86,7 +87,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714040758002</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Módulo 4] código Main_A">
+      <option name="closed" value="true" />
+      <created>1714040889567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714040889567</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Módulo 4] ajustes">
+      <option name="closed" value="true" />
+      <created>1714041049469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041049469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Módulo 1] ejs">
+      <option name="closed" value="true" />
+      <created>1714041191088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041191088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +120,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Módulo 4] código TextFileWriter" />
     <MESSAGE value="[Módulo 4] código InputFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 4] código InputFrame" />
+    <MESSAGE value="[Módulo 4] código Main_A" />
+    <MESSAGE value="[Módulo 4] ajustes" />
+    <MESSAGE value="[Módulo 1] ejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 1] ejs" />
   </component>
 </project>
