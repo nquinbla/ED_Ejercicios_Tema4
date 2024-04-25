@@ -1,30 +1,57 @@
 package C_ArchivosIguales;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Scanner;
 
-public class FileComparator {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+public class FileComparator extends JFrame {
+    private JTextField textField1;
+    private JTextField textField2;
+    private JButton button;
+    private JTextArea textArea;
 
-        System.out.println("Introduce el nombre del primer archivo:");
-        String file1 = scanner.nextLine();
+    public FileComparator() {
+        textField1 = new JTextField(20);
+        textField2 = new JTextField(20);
+        button = new JButton("Comparar archivos");
+        textArea = new JTextArea(10, 30);
 
-        System.out.println("Introduce el nombre del segundo archivo:");
-        String file2 = scanner.nextLine();
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String file1 = textField1.getText();
+                String file2 = textField2.getText();
 
-        try {
-            byte[] file1Content = Files.readAllBytes(Paths.get(file1));
-            byte[] file2Content = Files.readAllBytes(Paths.get(file2));
+                try {
+                    byte[] file1Content = Files.readAllBytes(Paths.get(file1));
+                    byte[] file2Content = Files.readAllBytes(Paths.get(file2));
 
-            if (java.util.Arrays.equals(file1Content, file2Content)) {
-                System.out.println("Los archivos son iguales.");
-            } else {
-                System.out.println("Los archivos son diferentes.");
+                    if (java.util.Arrays.equals(file1Content, file2Content)) {
+                        textArea.setText("Los archivos son iguales.");
+                    } else {
+                        textArea.setText("Los archivos son diferentes.");
+                    }
+                } catch (IOException ioException) {
+                    textArea.setText("Ocurrió un error al leer los archivos: " + ioException.getMessage());
+                }
             }
-        } catch (IOException e) {
-            System.out.println("Ocurrió un error al leer los archivos: " + e.getMessage());
-        }
+        });
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        add(new JLabel("Nombre del primer archivo:"));
+        add(textField1);
+        add(new JLabel("Nombre del segundo archivo:"));
+        add(textField2);
+        add(button);
+        add(new JScrollPane(textArea));
+        pack();
+    }
+
+    public static void main(String[] args) {
+        FileComparator frame = new FileComparator();
+        frame.setVisible(true);
     }
 }
