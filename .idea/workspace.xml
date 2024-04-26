@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 3] código FileComparator y main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_NumPalabras/ContadorPalabras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_NumPalabras/Main_D.java" afterDir="false" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 4] Main códgio">
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/Main_E.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <updated>1714033557851</updated>
       <workItem from="1714033558960" duration="32000" />
       <workItem from="1714040352861" duration="1848000" />
-      <workItem from="1714116026294" duration="1349000" />
+      <workItem from="1714116026294" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -149,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714117216332</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[Módulo 4] ContadorPalabras códgio">
+      <option name="closed" value="true" />
+      <created>1714117427862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714117427862</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[Módulo 4] Main códgio">
+      <option name="closed" value="true" />
+      <created>1714117450924</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714117450924</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +180,8 @@
     <MESSAGE value="[Módulo 2] código FileComparator" />
     <MESSAGE value="[Módulo 3] código FileComparator" />
     <MESSAGE value="[Módulo 3] código FileComparator y main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 3] código FileComparator y main" />
+    <MESSAGE value="[Módulo 4] ContadorPalabras códgio" />
+    <MESSAGE value="[Módulo 4] Main códgio" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 4] Main códgio" />
   </component>
 </project>
