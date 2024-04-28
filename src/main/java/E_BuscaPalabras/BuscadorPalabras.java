@@ -23,7 +23,7 @@ public class BuscadorPalabras extends JFrame {
                 String filename = fileField.getText();
                 String word = wordField.getText();
                 try {
-                    int count = WordCounter.countOccurrences(filename, word); // Corrected line
+                    int count = BuscadorPalabras.countOccurrences(filename, word); // Corrected line
                     textArea.setText("La palabra '" + word + "' aparece " + count + " veces en el archivo.");
                 } catch (Exception exception) {
                     textArea.setText("Ocurrió un error al leer el archivo: " + exception.getMessage());
@@ -40,5 +40,9 @@ public class BuscadorPalabras extends JFrame {
         add(new JScrollPane(textArea));
         pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    private static int countOccurrences(String filename, String word) {
+            return 0;
     }
 }

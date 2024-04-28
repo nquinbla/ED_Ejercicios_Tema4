@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 4] Main códgio">
-      <change afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/Main_E.java" afterDir="false" />
-    </list>
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 4] ajustes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -75,7 +75,7 @@
       <updated>1714033557851</updated>
       <workItem from="1714033558960" duration="32000" />
       <workItem from="1714040352861" duration="1848000" />
-      <workItem from="1714116026294" duration="2073000" />
+      <workItem from="1714116026294" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714117450924</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[Módulo 4] ajustes">
+      <option name="closed" value="true" />
+      <created>1714119494737</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714119494737</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,13 +183,13 @@
     <MESSAGE value="[Módulo 4] código TextFileWriter" />
     <MESSAGE value="[Módulo 4] código InputFrame" />
     <MESSAGE value="[Módulo 4] código Main_A" />
-    <MESSAGE value="[Módulo 4] ajustes" />
     <MESSAGE value="[Módulo 1] ejs" />
     <MESSAGE value="[Módulo 2] código FileComparator" />
     <MESSAGE value="[Módulo 3] código FileComparator" />
     <MESSAGE value="[Módulo 3] código FileComparator y main" />
     <MESSAGE value="[Módulo 4] ContadorPalabras códgio" />
     <MESSAGE value="[Módulo 4] Main códgio" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 4] Main códgio" />
+    <MESSAGE value="[Módulo 4] ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 4] ajustes" />
   </component>
 </project>
