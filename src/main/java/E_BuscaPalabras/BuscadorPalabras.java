@@ -38,7 +38,7 @@ public class BuscadorPalabras extends JFrame {
                 String word = wordField.getText();
                 try {
                     if (selectedFile != null) {
-                        int count = WordCounter.countOccurrences(selectedFile.getPath(), word); // Corrected line
+                        int count = WordCounter.countOccurrences(selectedFile.getPath(), word);
                         textArea.setText("La palabra '" + word + "' aparece " + count + " veces en el archivo.");
                     } else {
                         textArea.setText("Por favor, selecciona un archivo.");
