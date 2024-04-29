@@ -28,6 +28,7 @@ public class BuscadorPalabras extends JFrame {
                 int returnValue = fileChooser.showOpenDialog(null);
                 if (returnValue == JFileChooser.APPROVE_OPTION) {
                     selectedFile = fileChooser.getSelectedFile();
+                    JOptionPane.showMessageDialog(null, "Archivo seleccionado: " + selectedFile.getPath());
                 }
             }
         });

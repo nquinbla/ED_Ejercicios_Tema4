@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 5] ajustes buscador palabras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_NumPalabras/WordCounter.java" afterDir="false" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 5] ajustes buscador palabras pt3">
       <change beforePath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <workItem from="1714040352861" duration="1848000" />
       <workItem from="1714116026294" duration="2126000" />
       <workItem from="1714329414054" duration="754000" />
-      <workItem from="1714370771585" duration="353000" />
+      <workItem from="1714370771585" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -194,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714371036563</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[Módulo 5] ajustes buscador palabras pt2">
+      <option name="closed" value="true" />
+      <created>1714371173003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714371173003</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[Módulo 5] ajustes buscador palabras pt3">
+      <option name="closed" value="true" />
+      <created>1714371238861</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714371238861</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +228,8 @@
     <MESSAGE value="[Módulo 4] ajustes" />
     <MESSAGE value="[Módulo 5] ajustes" />
     <MESSAGE value="[Módulo 5] ajustes buscador palabras" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 5] ajustes buscador palabras" />
+    <MESSAGE value="[Módulo 5] ajustes buscador palabras pt2" />
+    <MESSAGE value="[Módulo 5] ajustes buscador palabras pt3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 5] ajustes buscador palabras pt3" />
   </component>
 </project>
