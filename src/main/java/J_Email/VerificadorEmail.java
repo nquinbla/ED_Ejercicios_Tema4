@@ -22,9 +22,9 @@ public class VerificadorEmail extends JFrame {
             @Override
             public void keyReleased(KeyEvent e) {
                 if (isValidEmail(emailField.getText())) {
-                    statusLabel.setIcon(new ImageIcon("path/to/valid_icon.png")); // Reemplaza "path/to/valid_icon.png" con la ruta a tu icono válido
+                    statusLabel.setIcon(new ImageIcon("src/main/resources/icono-inválido.png"));
                 } else {
-                    statusLabel.setIcon(new ImageIcon("path/to/invalid_icon.png")); // Reemplaza "path/to/invalid_icon.png" con la ruta a tu icono inválido
+                    statusLabel.setIcon(new ImageIcon("src/main/resources/icono-válido.png"));
                 }
             }
         });
