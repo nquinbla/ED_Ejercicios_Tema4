@@ -33,9 +33,9 @@ public class VerificadorEmail extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (isValidEmail(emailField.getText())) {
-                    JOptionPane.showMessageDialog(null, "Email is valid");
+                    JOptionPane.showMessageDialog(null, "El email introducido es válido");
                 } else {
-                    JOptionPane.showMessageDialog(null, "Email is not valid");
+                    JOptionPane.showMessageDialog(null, "El email introducido no es válido");
                 }
             }
         });
