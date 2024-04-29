@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 8] codigo MouseTrackerFrame" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 9] codigo ScrollFrame y Main_I">
+      <change afterPath="$PROJECT_DIR$/src/main/java/J_Email/Main_J.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/J_Email/VerificadorEmail.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +47,8 @@
     "Application.Main_F.executor": "Run",
     "Application.Main_G.executor": "Run",
     "Application.Main_H.executor": "Run",
+    "Application.Main_I.executor": "Run",
+    "Application.Main_J.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,7 +86,7 @@
       <workItem from="1714040352861" duration="1848000" />
       <workItem from="1714116026294" duration="2126000" />
       <workItem from="1714329414054" duration="754000" />
-      <workItem from="1714370771585" duration="1499000" />
+      <workItem from="1714370771585" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -267,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714372265381</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[Módulo 9] codigo ScrollFrame y Main_I">
+      <option name="closed" value="true" />
+      <created>1714372699814</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714372699814</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +307,7 @@
     <MESSAGE value="[Módulo 6] codigo agenda, Agenda_GUI, Contacto y main" />
     <MESSAGE value="[Módulo 7] codigo frames" />
     <MESSAGE value="[Módulo 8] codigo MouseTrackerFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 8] codigo MouseTrackerFrame" />
+    <MESSAGE value="[Módulo 9] codigo ScrollFrame y Main_I" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 9] codigo ScrollFrame y Main_I" />
   </component>
 </project>
