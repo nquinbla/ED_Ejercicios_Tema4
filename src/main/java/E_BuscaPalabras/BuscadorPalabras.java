@@ -4,27 +4,43 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 public class BuscadorPalabras extends JFrame {
-    private JTextField fileField;
+    private JButton fileButton;
     private JTextField wordField;
     private JButton button;
     private JTextArea textArea;
+    private File selectedFile;
 
     public BuscadorPalabras() {
-        fileField = new JTextField(20);
+        fileButton = new JButton("Seleccionar archivo");
         wordField = new JTextField(20);
         button = new JButton("Contar apariciones");
         textArea = new JTextArea(10, 30);
 
+        fileButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser fileChooser = new JFileChooser();
+                int returnValue = fileChooser.showOpenDialog(null);
+                if (returnValue == JFileChooser.APPROVE_OPTION) {
+                    selectedFile = fileChooser.getSelectedFile();
+                }
+            }
+        });
+
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String filename = fileField.getText();
                 String word = wordField.getText();
                 try {
-                    int count = BuscadorPalabras.countOccurrences(filename, word); // Corrected line
-                    textArea.setText("La palabra '" + word + "' aparece " + count + " veces en el archivo.");
+                    if (selectedFile != null) {
+                        int count = BuscadorPalabras.countOccurrences(selectedFile.getPath(), word);
+                        textArea.setText("La palabra '" + word + "' aparece " + count + " veces en el archivo.");
+                    } else {
+                        textArea.setText("Por favor, selecciona un archivo.");
+                    }
                 } catch (Exception exception) {
                     textArea.setText("Ocurrió un error al leer el archivo: " + exception.getMessage());
                 }
@@ -32,17 +48,12 @@ public class BuscadorPalabras extends JFrame {
         });
 
         setLayout(new FlowLayout());
-        add(new JLabel("Nombre del archivo:"));
-        add(fileField);
+        add(fileButton);
         add(new JLabel("Palabra a buscar:"));
         add(wordField);
         add(button);
         add(new JScrollPane(textArea));
         pack();
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-
-    private static int countOccurrences(String filename, String word) {
-            return 0;
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 }
