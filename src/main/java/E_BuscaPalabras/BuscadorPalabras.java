@@ -1,7 +1,5 @@
 package E_BuscaPalabras;
 
-import D_NumPalabras.WordCounter;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -28,7 +26,6 @@ public class BuscadorPalabras extends JFrame {
                 int returnValue = fileChooser.showOpenDialog(null);
                 if (returnValue == JFileChooser.APPROVE_OPTION) {
                     selectedFile = fileChooser.getSelectedFile();
-                    JOptionPane.showMessageDialog(null, "Archivo seleccionado: " + selectedFile.getPath());
                 }
             }
         });
@@ -39,7 +36,7 @@ public class BuscadorPalabras extends JFrame {
                 String word = wordField.getText();
                 try {
                     if (selectedFile != null) {
-                        int count = WordCounter.countOccurrences(selectedFile.getPath(), word);
+                        int count = BuscaPalabras.countOccurrences(selectedFile.getPath(), word);
                         textArea.setText("La palabra '" + word + "' aparece " + count + " veces en el archivo.");
                     } else {
                         textArea.setText("Por favor, selecciona un archivo.");
