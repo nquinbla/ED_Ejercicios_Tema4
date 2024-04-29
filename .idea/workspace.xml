@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 12] codigo &#10;casa pt3">
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="Main general pt1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,34 +35,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FileComparator.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main_A.executor": "Run",
-    "Application.Main_B.executor": "Run",
-    "Application.Main_C.executor": "Run",
-    "Application.Main_D.executor": "Run",
-    "Application.Main_E.executor": "Run",
-    "Application.Main_F.executor": "Run",
-    "Application.Main_G.executor": "Run",
-    "Application.Main_H.executor": "Run",
-    "Application.Main_I.executor": "Run",
-    "Application.Main_J.executor": "Run",
-    "Application.Main_K.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FileComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_E.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_F.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_G.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_H.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_I.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_J.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main_K.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nerea\OneDrive\Documentos\GitHub\ED_Ejercicios_Tema4\src\main\resources" />
@@ -89,7 +90,8 @@
       <workItem from="1714040352861" duration="1848000" />
       <workItem from="1714116026294" duration="2126000" />
       <workItem from="1714329414054" duration="754000" />
-      <workItem from="1714370771585" duration="2979000" />
+      <workItem from="1714370771585" duration="3318000" />
+      <workItem from="1714374695259" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -339,14 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714373894090</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Main general pt1">
+      <option name="closed" value="true" />
+      <created>1714374143937</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714374143937</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[Módulo 4] código TextFileWriter" />
     <MESSAGE value="[Módulo 4] código InputFrame" />
     <MESSAGE value="[Módulo 4] código Main_A" />
     <MESSAGE value="[Módulo 1] ejs" />
@@ -371,6 +380,7 @@
     <MESSAGE value="[Módulo 11 y 12] codigo &#10;VerificadorEmail y Main_J &amp;" />
     <MESSAGE value="[Módulo 12] codigo &#10;casa pt2" />
     <MESSAGE value="[Módulo 12] codigo &#10;casa pt3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 12] codigo &#10;casa pt3" />
+    <MESSAGE value="Main general pt1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main general pt1" />
   </component>
 </project>
