@@ -22,9 +22,13 @@ public class VerificadorEmail extends JFrame {
             @Override
             public void keyReleased(KeyEvent e) {
                 if (isValidEmail(emailField.getText())) {
-                    statusLabel.setIcon(new ImageIcon("src/main/resources/icono-inválido.png"));
+                    ImageIcon originalIcon = new ImageIcon("src/main/resources/icono-válido.png");
+                    Image scaledImage = originalIcon.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
+                    statusLabel.setIcon(new ImageIcon(scaledImage));
                 } else {
-                    statusLabel.setIcon(new ImageIcon("src/main/resources/icono-válido.png"));
+                    ImageIcon originalIcon = new ImageIcon("src/main/resources/icono-inválido.png");
+                    Image scaledImage = originalIcon.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
+                    statusLabel.setIcon(new ImageIcon(scaledImage));
                 }
             }
         });
@@ -47,7 +51,8 @@ public class VerificadorEmail extends JFrame {
         add(validateButton);
 
         pack();
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(400, 100);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     private boolean isValidEmail(String email) {
