@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 10] codigo &#10;VerificadorEmail y Main_J">
-      <change afterPath="$PROJECT_DIR$/src/main/java/K_Casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Email/Main_J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Email/Main_J.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/J_Email/VerificadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/J_Email/VerificadorEmail.java" afterDir="false" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 11 y 12] codigo &#10;VerificadorEmail y Main_J &amp;">
+      <change beforePath="$PROJECT_DIR$/src/main/java/K_Casa/CasaPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/K_Casa/CasaPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
     "Application.Main_H.executor": "Run",
     "Application.Main_I.executor": "Run",
     "Application.Main_J.executor": "Run",
+    "Application.Main_K.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -91,7 +89,7 @@
       <workItem from="1714040352861" duration="1848000" />
       <workItem from="1714116026294" duration="2126000" />
       <workItem from="1714329414054" duration="754000" />
-      <workItem from="1714370771585" duration="2280000" />
+      <workItem from="1714370771585" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -317,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714373215223</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="[Módulo 11 y 12] codigo &#10;VerificadorEmail y Main_J &amp;">
+      <option name="closed" value="true" />
+      <created>1714373584014</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1714373584014</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +352,7 @@
     <MESSAGE value="[Módulo 8] codigo MouseTrackerFrame" />
     <MESSAGE value="[Módulo 9] codigo ScrollFrame y Main_I" />
     <MESSAGE value="[Módulo 10] codigo &#10;VerificadorEmail y Main_J" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 10] codigo &#10;VerificadorEmail y Main_J" />
+    <MESSAGE value="[Módulo 11 y 12] codigo &#10;VerificadorEmail y Main_J &amp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 11 y 12] codigo &#10;VerificadorEmail y Main_J &amp;" />
   </component>
 </project>
