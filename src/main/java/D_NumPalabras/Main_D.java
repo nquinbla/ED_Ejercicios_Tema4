@@ -4,7 +4,7 @@ public class Main_D {
     public static void main(String[] args) {
         ContadorPalabras frame = new ContadorPalabras();
         frame.setTitle("Contador de Palabras");
-        frame.setSize(400, 200);
+        frame.setSize(400, 250);
         frame.setVisible(true);
     }
 }
