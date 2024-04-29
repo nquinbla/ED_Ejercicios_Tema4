@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 5] ajustes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="16eefda5-37ce-48a1-aeb7-4c6ff5e11ed5" name="Changes" comment="[Módulo 5] ajustes buscador palabras">
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_NumPalabras/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_BuscaPalabras/BuscadorPalabras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
       <workItem from="1714040352861" duration="1848000" />
       <workItem from="1714116026294" duration="2126000" />
       <workItem from="1714329414054" duration="754000" />
+      <workItem from="1714370771585" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo 4] código TextFileWriter">
       <option name="closed" value="true" />
@@ -184,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714330148147</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[Módulo 5] ajustes buscador palabras">
+      <option name="closed" value="true" />
+      <created>1714371036563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714371036563</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +212,7 @@
     <MESSAGE value="[Módulo 4] Main códgio" />
     <MESSAGE value="[Módulo 4] ajustes" />
     <MESSAGE value="[Módulo 5] ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 5] ajustes" />
+    <MESSAGE value="[Módulo 5] ajustes buscador palabras" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo 5] ajustes buscador palabras" />
   </component>
 </project>
